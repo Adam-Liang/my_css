@@ -1,0 +1,50 @@
+html{
+    font-size: 62.5%;
+    background: cyan
+}
+body{
+    font-size: 1.6rem
+}
+
+div.back{
+position: fixed;
+left:5%;
+top:2.5%;
+background: yellow;
+width:0;
+padding: 3%;
+border-radius:50%;
+}
+
+div.logo{
+    position:fixed;
+    left:40%;
+    top:25%;
+    background: yellowgreen;
+    width: 30%;
+    height: 10%;
+}
+
+p.text{
+    font-size: 1em;
+    width:70%;
+    text-align: center;   
+}
+
+div.more_message1{
+    position: fixed;
+    left: 20%;
+    top: 120%;
+    width: 20%;
+    height: 30%;
+    background:gray;
+}
+
+div.more_message1{
+    position: fixed;
+    left: 60%;
+    top: 120%;
+    width: 20%;
+    height: 30%;
+    background:gray;
+}
