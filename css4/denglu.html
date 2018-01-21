@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html style="font-size:62.5%">
+<head>
+    <meta charset="utf-8" />
+    <title>登陆</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="denglu.css" />
+</head>
+<body>
+    <!-- div的头部，在文档流中 -->
+    <header class="head">
+        <span>登陆</span>
+        <div class="guanbi">
+            <a href="./denglu.html" class="guanbi">关闭</a>
+        </div>
+        <div class="zhuce">
+            <a href="./denglu.html" class="zhuce">注册</a>
+        </div>
+    </header>
+    <!-- 继续用文档流中的div实现表单 -->
+    <form>
+        <div class="kuang">
+            <div class="icon"><img src="./icon/iphone.png" alt="mobile" height="100%" /></div>
+            <div class="cut"></div>
+            <input class="kuang" type="text" name="shouji" placeholder="请输入手机号" />
+        </div>
+        <div class="kuang">
+                <div class="icon"><img src="./icon/lock.png" alt="password" height="100%" /></div>
+                <div class="cut"></div>
+                <input class="kuang" type="password" name="mima" placeholder="请输入密码" />
+        </div>
+        <div class="tijiao">
+            <input type="submit" class="tijiao" value="登 陆"/>
+        </div>
+    </form>
+    <!-- 忘记密码按钮 -->
+    <div class="forget">
+        <a href="./denglu.html" class="forget">忘记密码？</a>
+    </div>
+</body>
+</html>
