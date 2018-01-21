@@ -34,7 +34,7 @@ a.guanbi:link,a.guanbi:visited,a.zhuce:link,a.zhuce:visited{
 }
 /*两个输入框*/
 form{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -58,11 +58,12 @@ div.cut{
     margin: 0.8rem 0;
 }
 input.kuang{
-    margin:1.5rem 0 1.5rem 8.6rem;
+    margin:1.4rem 0 1.4rem 8.6rem;
     margin-left:8.6rem;
     border: 0;
     font: inherit;
     outline: none;
+    padding:0;
 }
 /*登陆按钮与忘记密码*/
 div.tijiao{
