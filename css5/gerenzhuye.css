@@ -104,20 +104,20 @@ div.basic_message{
     height: 33%;
     background-image:url(./icon/background.png);
     background-size: cover;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 #head{
     width: auto;
-    height: 17%;
-    position: absolute;
-    top:8%;
-    left: 1.4rem;
+    height: 52%;
+    margin-left: 1.4rem;
 }
 #message{
     width: auto;
-    height: 9%;
-    position: absolute;
-    top: 12%;
-    left:11.6rem;
+    height: 30%;
+    margin-left:2rem;
     color: white;
 
     overflow: hidden;
