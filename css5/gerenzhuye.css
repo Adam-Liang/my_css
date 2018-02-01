@@ -13,15 +13,14 @@ header{
     font-size: 2rem;
     color: white;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-span.gerenzhuye{
-    position: relative;
-    top:25%;
-}
+
 #back{
     position: absolute;
     left: 2rem;
-    top:50%;
     transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
