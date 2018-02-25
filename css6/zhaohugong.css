@@ -1,0 +1,263 @@
+html{
+    font-size: 625%;
+}
+body{
+    margin: 0;
+}
+/* 布局头部和脚部 */
+header{
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 7.1%;
+    background: #5fc0cd;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_1{
+    background: #55a8b3;
+    border-radius:4px;
+    
+}
+.header_1_1,.header_1_2{
+    font-size: 0.19rem;
+    border:0;
+    color: #5fc0cd;
+}
+.header_1_1{
+    background:none;
+    color:white;
+    margin-right: -5px;
+}
+.header_1_2{
+    margin-left: -5px;
+}
+.header_2{
+    height:0.27rem;
+    width: 0.27rem;
+    background-image:url(./icon/sprite.png);
+    background-size: auto 100%;
+    background-position: -0px;
+    position: absolute;
+    right: 0.17rem;
+}
+
+footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 8.4%;
+    background: #f8fafb;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer_1,.footer_2{
+    height: 0.44rem;
+    width: 0.28rem;
+    font-size: 0.11rem;
+    letter-spacing: 1px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer_1_1,.footer_2_1{
+    height: 0.24rem;
+    background-image: url(./icon/sprite.png);
+    background-size: auto 100%;
+}
+.footer_1_1{
+    background-position-x: -48px;
+}
+.footer_2_1{
+    background-position-x: -144px;
+}
+.footer_1_2,.footer_2_2{
+    height: auto;
+    text-align: center;
+}
+.footer_1_2{
+    color: #5fc0cd;
+}
+.footer_2_2{
+    color: #999999;
+}
+.footer_3{
+    background: #5fc0cd;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 0;
+    width: 0;
+    padding: 0.25rem;
+    border-radius: 50%;
+    margin-top: -0.25rem;
+    margin-left: -0.25rem;
+}
+.footer_3_1{
+    height: 0.23rem;
+    width: 0.23rem;
+    background-image:url(./icon/sprite.png);
+    background-size: auto 100%;
+    background-position: -92px;
+    margin-top:-0.115rem;
+    margin-left: -0.115rem;
+}
+/* 布局主体的筛选下拉栏部分 */
+main{
+    height:84.5%;
+    width: 100%;
+    position: absolute;
+    top: 7.1%;
+}
+.main_1{
+    width: 100%;
+    height: 7.67%;
+    border-bottom: 1px solid #e1e5e7;
+    position: absolute;
+    top:0;
+
+    display: flex;
+    flex-wrap:nowrap;
+}
+.main_1_0{
+    height: 100%;
+    width:33%;
+    flex:auto;
+    border-right: 1px solid #e1e5e7;
+}
+.main_1_3{
+    border-right: 0;
+}
+.dropdown-toggle{
+    height: 100%;
+    width: 100%;
+    border:0;
+    background: none;
+    color: #999999;
+    font-size: 0.16rem;
+}
+.caret{
+    position: absolute;
+    right: 7px;
+    top:50%;
+    margin-top:-2px;
+}
+.main_1_3_0{
+    right: 12px;
+}
+.ul{
+    width: 100%;
+    min-width: 100%;
+}
+.ul>li>a{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+
+/* 布局主体的实际内容部分 */
+.main_2{
+    width: 100%;
+    height: 92.33%;
+    position: absolute;
+    bottom:0;
+
+    display: flex;
+    flex-wrap:nowrap;
+    flex-direction: column;
+    overflow:auto;
+}
+.main_2_0{
+    height: 1.08rem;
+    border-bottom:1px solid #e1e5e7;
+    position: relative;
+
+    flex:none;
+
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.main_2_0_a,.main_2_0_c{
+    height:0.13rem;
+    width: 0.2rem;
+    background-image: url(./icon/sprite.png);
+    background-size: auto 100%;
+    background-position:-1.04rem;
+
+    position: absolute;
+    top: 0.16rem;
+    left: 0.16rem;
+}
+.main_2_0_c{
+    background-position: -1.3rem;
+    top:auto;
+    bottom: 0.16rem;
+}
+.main_2_0_b,.main_2_0_d{
+    font-size: 0.13rem;
+    line-height: 0.13rem;
+    color:#999999;
+
+    position: absolute;
+    top:0.16rem;
+    left: 0.36rem;
+}
+.main_2_0_d{
+    top: auto;
+    bottom:0.16rem;
+}
+.main_2_0_1{
+    font-size: 0.13rem;
+    color: #333333;
+    line-height: 0.13rem;
+    margin-left:0.36rem;
+    flex-basis: 99rem;
+    flex-shrink: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.main_2_0_2{
+    font-size: 0.14rem;
+    color: #e63b0e;
+    line-height: 0.14rem;
+    flex:none;
+    font-weight: 500;
+    margin-left: 0.1rem;
+}
+.main_2_0_3{
+    width: 0.39rem;
+    flex:none;
+    position: relative;
+}
+#goon{
+    transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -webkit-transform:rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    position: absolute;
+    left: 0.07rem;
+}
+#under{
+    height: 0.12rem;
+    width: 0.12rem;
+    background: #5fc0cd;
+    position: absolute;
+}
+#on{
+    height: 0.11rem;
+    width: 0.11rem;
+    background: white;
+    position: absolute;
+    top:-1px;
+    left: -1px;
+}
