@@ -1,0 +1,164 @@
+html{
+    font-size: 625%;
+}
+/*页面头部内容*/
+header{
+    position: absolute;
+    top:0;
+
+    width: 100%;
+    height: 8%;
+
+    background: #29bde0;
+}
+.header-1{
+    position: absolute;
+    left:0.12rem;
+    top: 50%;
+    margin-top: -0.08rem;
+
+    width: 0.2rem;
+    height: 0.16rem;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+.header-1-0{
+    height: 0.02rem;
+
+    background: white;
+}
+/*头部内容完毕，搭建主题内容*/
+/*第一层布局-两个白框和一个三角*/
+main{
+    position: absolute;
+    bottom: 0;
+
+    height: 92%;
+    width: 100%;
+    background: #f0f0f0;
+}
+.top{
+    position: absolute;
+    left: 5.5%;
+    top: 2.5%;
+    
+    width: 89%;
+    height: 11.5%;
+    background: white;
+    border:1px solid #c9c9c9;
+
+    color: #9a9a9a;
+    font-size: 0.2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top:link,.top:visited,.top:hover{
+    color: #9a9a9a;
+    text-decoration: none;
+}
+.major{
+    position: absolute;
+    left: 5.5%;
+    bottom: 6%;
+
+    width: 89%;
+    height: 77.5%;
+    background: white;
+    border: 1px solid #c9c9c9;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.next{
+    position: absolute;
+    bottom: 41.7%;
+    right: 6.5%;
+
+    height: 0;
+    width: 0;
+    border-left: #fbb435 0.18rem solid;
+    border-top:0.18rem solid transparent;
+    border-bottom:0.18rem solid transparent; 
+}
+/*top部分的子元素布局*/
+.top-2{
+    position: absolute;
+    right: 0.3rem;
+    transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+}
+.top-2-under{
+    position: absolute;
+    height:0.14rem;
+    width: 0.14rem;
+    background: #e7e7e7;
+}
+.top-2-top{
+    position: absolute;
+    top:-0.015rem;
+    left: -0.015rem;
+    height: 0.125rem;
+    width: 0.125rem;
+    background: white;
+}
+/*major部分的子元素布局，用flex实现*/
+.major-1{
+    height: 11.5%;
+    width: 100%;
+    border-bottom: 1px solid #fdd793;
+    color: #fbb435;
+    font-size: 0.22rem;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.major-2{
+    width: 81.5%;
+    height: 17.3%;
+    margin-top: 3.6%;
+    background: #69d1e9;
+    font-size: 0.2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.major-2:link,.major-2:visited,.major-2:hover{
+    color: white;
+    text-decoration: none;
+}
+.major-3{
+    width: auto;
+    height: 3.1%;
+    margin-top: 3.6%;
+    font-size: 0.15rem;
+    color: #787878;
+}
+.major-8{
+    height: 5.7%;
+    width: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.major-8-0{
+    height: 0;
+    width: 0;
+    padding:0.055rem;
+    border-radius: 50%;
+    background: #f0f0f0;
+}
+.major-8-1{
+    background:#69d1e9;
+}
