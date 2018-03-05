@@ -124,6 +124,11 @@ p{
     align-items: stretch;
     justify-content: flex-start;
 }
+@media (max-width:385px){
+    .main-2{
+        padding: 0;
+    }
+}
 .main-2-1{
     margin-top: 0.03rem;
     height:0.273rem ;
